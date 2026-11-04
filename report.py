@@ -30,13 +30,10 @@ def revenue_by_region(sales):
             totals[region] = revenue
     return totals
 
-def main():
-    sales = load_sales("sales.csv")
-    print("=== Grizzly Gear Sales Report ===")
-    print("Total revenue: $" + format(total_revenue(sales), ",.2f"))
-    print()
-    print("Revenue by region:")
-    for region, amount in revenue_by_region(sales).items():
-        print("  " + region + ": $" + format(amount, ",.2f"))
-
-main()
+sales = load_sales("sales.csv")
+print("=== Grizzly Gear Sales Report ===")
+print("Total revenue: $" + format(total_revenue(sales), ",.2f"))
+print()
+print("Revenue by region:")
+for region, amount in revenue_by_region(sales).items():
+    print("  " + region + ": $" + format(amount, ",.2f"))
