@@ -1,0 +1,9 @@
+date,region,product,units,price
+2026-10-01,West,Jersey,12,45.00
+2026-10-01,East,Shorts,20,25.00
+2026-10-02,West,Socks,30,8.00
+2026-10-02,North,Jersey,8,45.00
+2026-10-03,East,Jersey,15,45.00
+2026-10-03,North,Shorts,10,25.00
+2026-10-04,West,Shorts,6,25.00
+2026-10-04,East,Socks,40,8.00
